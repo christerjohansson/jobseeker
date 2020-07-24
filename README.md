@@ -1,8 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Job Finder
 
-## Available Scripts
+This is a simple ReactJS based application, that consumes Githubs job api through a hook. The application is based of the famous create-react-app tool, and uses react-bootstrap for the visual.
 
-In the project directory, you can run:
+It's a basic application to demonstrate a simple way to consume an api through axios. It is in no way the best or most optimized way to handle the API. One thing it misses is Redux or an efficient way to cache data. 
+
+This application also uses a Heroku-service to void the CORS issue in local development environment.
+
+- https://cors-anywhere.herokuapp.com
+- https://allorigins.win
+
+
+
+## Screens 
+
+![](images\mockup1.jpg)
+
+## How to install
+
+Clone this repository, Then in the project directory, you can run:
+
+`yarn install`
+
+Then run: 
 
 ### `yarn start`
 
