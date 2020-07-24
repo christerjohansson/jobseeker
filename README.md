@@ -13,7 +13,7 @@ This application also uses a Heroku-service to void the CORS issue in local deve
 
 ## Screens 
 
-![](images\mockup1.jpg)
+![Screenshot](images/mockup1.jpg)
 
 ## How to install
 
