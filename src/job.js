@@ -10,10 +10,7 @@ export default function Job({ job }) {
         <div className="d-flex justify-content-between">
           <div>
             <Card.Title>
-              {job.title} -{" "}
-              <span className="text-muted font-weight-light">
-                {job.company}
-              </span>
+              {job.title} - <span className="text-muted font-weight-light">{job.company}</span>
             </Card.Title>
             <Card.Subtitle className="text-muted mb-2">
               {new Date(job.created_at).toLocaleDateString()}
